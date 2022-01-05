@@ -1,3 +1,7 @@
+# Install gcc toolchain, a useful dependency for Rust
+sudo apt-get update
+sudo apt install build-essential
+
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Shell may need to be restarted in order for following commands to work 
