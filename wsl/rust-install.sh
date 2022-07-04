@@ -13,8 +13,4 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 #     PATH="$PATH:$HOME/.cargo/bin"
 # fi
 
-# Update rustup
-rustup update
-
-# Get the current rust version
-rustc --version
+../common/update_and_verify.sh
