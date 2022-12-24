@@ -4,3 +4,8 @@
 ```
 ./wsl/rust-install.sh
 ```
+
+# Install rust for Mac
+```
+./mac/rust-install.sh
+```
